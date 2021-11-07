@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    name: datagriptools
+    url: jdbc:mysql://localhost:3306/datagriptools?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublickeyRetrieval=true&serverTimezone=UTC
+    username: mubai
+    password: Nicht.vergessen
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.springtst.bean
+
