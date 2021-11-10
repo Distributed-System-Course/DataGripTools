@@ -7,10 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
-
+//控制器只是用来接收客户端的请求。
 @RestController
 public class DatagripController {
 
@@ -40,11 +39,11 @@ public class DatagripController {
         return trace_list.toString();
     }
     @GetMapping("/AddTrace")
-    public String AddTrace(String location, String enter_time, String Name, String phone, String id){
+    public String AddTrace(){
         ArrayList<TraceBean> traceBeans = new ArrayList<>();
         Data_Processing data_processing = new Data_Processing();
         try {
-            data_processing.init("D:\\Study\\Study in MUC\\DataGripToolsDesign\\src\\main\\resources\\进入登记.xlsx");
+            data_processing.init("src/main/resources/进入登记.xlsx");
             data_processing.processing();
             data_processing.getLogs().forEach(System.out::println);
             traceBeans = data_processing.upload();

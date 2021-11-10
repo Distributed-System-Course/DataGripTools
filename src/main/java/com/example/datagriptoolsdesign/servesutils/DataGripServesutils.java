@@ -1,6 +1,7 @@
 package com.example.datagriptoolsdesign.servesutils;
 
 import com.example.datagriptoolsdesign.bean.TraceBean;
+import com.example.datagriptoolsdesign.demo.Data_Processing;
 import com.example.datagriptoolsdesign.mapper.UserMapper;
 import com.example.datagriptoolsdesign.serves.DataGripServes;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +18,16 @@ public class DataGripServesutils implements DataGripServes {
     UserMapper userMapper;
 
     @Override
-    public void addTrace(TraceBean trace) {
-        userMapper.AddTrace(trace);
+    public void addTrace(ArrayList<TraceBean> traceBeans) {
+        try {
+            traceBeans.forEach(traceBean -> {
+                userMapper.AddTrace(traceBean);
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-
+    
     @Override
     public String showALLTrace() {
         ArrayList<String> trace_list = new ArrayList<>();
