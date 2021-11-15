@@ -1,6 +1,7 @@
 package com.example.datagriptoolsdesign.controller;
 
 import com.example.datagriptoolsdesign.bean.TraceBean;
+import com.example.datagriptoolsdesign.bean.UserBean;
 import com.example.datagriptoolsdesign.demo.Data_Processing;
 import com.example.datagriptoolsdesign.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,4 +57,17 @@ public class DatagripController {
         }
         return "OK";
     }
+
+@GetMapping("/Verify")
+    public Boolean VerifyUser(String username, String password){
+    UserBean userBean = userMapper.getUser(username, password);
+    if (userBean.getUsername() .equals("")){
+        return Boolean.FALSE;
+    }
+    else{
+        return Boolean.TRUE;
+    }
+}
+
+
 }

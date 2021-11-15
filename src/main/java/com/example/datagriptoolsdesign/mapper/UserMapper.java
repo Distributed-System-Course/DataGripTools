@@ -1,6 +1,7 @@
 package com.example.datagriptoolsdesign.mapper;
 
 import com.example.datagriptoolsdesign.bean.TraceBean;
+import com.example.datagriptoolsdesign.bean.UserBean;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -17,4 +18,5 @@ public interface UserMapper {
     // 增加
     public void AddTrace(TraceBean trace);
 
+    public UserBean getUser(String username, String password);
 }
