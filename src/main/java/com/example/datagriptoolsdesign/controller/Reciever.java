@@ -1,17 +1,20 @@
 package com.example.datagriptoolsdesign.controller;
 
 import com.example.datagriptoolsdesign.webapp.Result.Result;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 
 //控制器只是用来接收客户端的请求。
-@RestController
+@Controller
 public class Reciever {
+    @RequestMapping(value = "/up")
     public String homePage() {
-        return "/test";
+        return "/up";
     }
+
     @RequestMapping("/upload")
     @ResponseBody
     public Object handleFileUpload(@RequestParam("file") MultipartFile file) {

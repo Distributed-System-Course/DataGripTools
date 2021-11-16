@@ -7,7 +7,6 @@ import org.springframework.web.util.HtmlUtils;
 
 import java.util.Objects;
 
-@RestController
 public class LoginController {
 
     @CrossOrigin
