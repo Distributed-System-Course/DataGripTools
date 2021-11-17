@@ -12,7 +12,6 @@ public class DataGripToolsDesignApplication {
 		Data_Processing data_processing = new Data_Processing();
 		try {
 
-			//data_processing.init("D:\\Study\\Study in MUC\\DataGripToolsDesign\\src\\main\\resources\\进入登记.xlsx");
 			data_processing.init("src\\main\\resources\\进入登记.xlsx");
 			data_processing.processing();
 			data_processing.getLogs().forEach(System.out::println);
