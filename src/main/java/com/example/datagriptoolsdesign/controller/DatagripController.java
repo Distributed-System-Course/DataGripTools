@@ -5,12 +5,14 @@ import com.example.datagriptoolsdesign.bean.UserBean;
 import com.example.datagriptoolsdesign.demo.Data_Processing;
 import com.example.datagriptoolsdesign.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
-//控制器只是用来接收客户端的请求。
+
 @RestController
 public class DatagripController {
 
@@ -19,7 +21,6 @@ public class DatagripController {
 
     @GetMapping("/Show_all")
     public String Show_all(){
-
         ArrayList<String> trace_list = new ArrayList<>();
         List<TraceBean> traceBeans = userMapper.Show_all();
         traceBeans.forEach(traceBean -> {
@@ -67,6 +68,10 @@ public class DatagripController {
     else{
         return Boolean.TRUE;
     }
+}
+@GetMapping("/test")
+public String test(){
+    return "{a,b,c}";
 }
 
 
