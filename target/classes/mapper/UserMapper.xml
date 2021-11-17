@@ -12,6 +12,10 @@
         Select * from trace where id = #{id};
     </select>
 
+    <select id="getUser" resultType="com.example.datagriptoolsdesign.bean.UserBean">
+        Select * from tools_user Where username = #{username} and password = #{password};
+    </select>
+
     <insert id="AddTrace" parameterType="com.example.datagriptoolsdesign.bean.TraceBean">
         Insert into trace (location, enter_time, Name, phone, id)Value(#{location}, #{enter_time}, #{Name}, #{phone}, #{id});
     </insert>
