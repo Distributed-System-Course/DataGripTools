@@ -1,0 +1,15 @@
+# 在application 中书写mybatis的核心配置文件，即springboot将mybatis核心配置文件集成到了总的配置文件中
+spring:
+  datasource: # 定义mybatis环境
+    name: datagriptools
+    url: jdbc:mysql://localhost:3306/datagriptools?useUnicode=true&characterEncoding=utf8&useSSL=true&allowPublickeyRetrieval=true&serverTimezone=UTC
+    #username: mubai
+    #password: Nicht.vergessen
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:    # mybatis配置信息
+  mapper-locations: classpath:mapper/*.xml    # 映射器配置目录
+  type-aliases-package: com.example.datagriptoolsdesign.bean
+server:
+  port: 8443

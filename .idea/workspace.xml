@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc15a2e4-a7dd-4954-aa86-f2597ef893ca" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/DataGripToolsDesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/assets/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/common/NavMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/Appindex.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/Pie.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/Query.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/ShowPlace.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/SideMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/components/home/Tutorial.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datagrip/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Study\JDK\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../JDK/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\Study\JDK\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20JYZTggva3qkQ8UiSyqBA4zqwz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/datagrip" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/bean/UserBean.java" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Study in MUC\DataGripToolsDesign\src\main\resources\templates" />
+      <recent name="D:\Study\Study in MUC\DataGripToolsDesign\src\main\java\com\example\datagriptoolsdesign" />
+      <recent name="D:\Study\Study in MUC\DataGripToolsDesign\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DataGripToolsDesignApplication">
+    <configuration name="Data_Processing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datagriptoolsdesign.demo.Data_Processing" />
+      <module name="DataGripToolsDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datagriptoolsdesign.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tools_user.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="aca2382b-44ee-4da8-abc4-cfd149fe4e4a/schema/datagriptools/table/tools_user.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="DataGripToolsDesignApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataGripToolsDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datagriptoolsdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.datagriptoolsdesign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datagriptoolsdesign.DataGripToolsDesignApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataGripToolsDesignApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataGripToolsDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datagriptoolsdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.datagriptoolsdesign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datagriptoolsdesign.DataGripToolsDesignApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataGripToolsDesignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DataGripTools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.datagriptoolsdesign.DataGripToolsDesignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataGripToolsDesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DataGripToolsDesign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.datagriptoolsdesign.DataGripToolsDesignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.tools_user.sql" />
+        <item itemvalue="Application.Data_Processing" />
+        <item itemvalue="JUnit.DataGripToolsDesignApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.DataGripToolsDesignApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc15a2e4-a7dd-4954-aa86-f2597ef893ca" name="Changes" comment="" />
+      <created>1635764215424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635764215424</updated>
+      <workItem from="1635764216907" duration="8831000" />
+      <workItem from="1635840955085" duration="1209000" />
+      <workItem from="1635947085935" duration="14000" />
+      <workItem from="1636372710644" duration="668000" />
+      <workItem from="1636373443677" duration="1722000" />
+      <workItem from="1636423789875" duration="4449000" />
+      <workItem from="1636434717871" duration="2596000" />
+      <workItem from="1636437579628" duration="10307000" />
+      <workItem from="1636459504062" duration="1205000" />
+      <workItem from="1636463321607" duration="2470000" />
+      <workItem from="1636519859302" duration="3756000" />
+      <workItem from="1636543241623" duration="420000" />
+      <workItem from="1636678292674" duration="186000" />
+      <workItem from="1636698979242" duration="991000" />
+      <workItem from="1636944059308" duration="4446000" />
+      <workItem from="1636984826440" duration="29000" />
+      <workItem from="1637045627690" duration="2119000" />
+      <workItem from="1637143020338" duration="594000" />
+      <workItem from="1637148598371" duration="3723000" />
+      <workItem from="1637152382848" duration="2530000" />
+      <workItem from="1637216302330" duration="1837000" />
+      <workItem from="1637226862273" duration="727000" />
+      <workItem from="1637230774976" duration="543000" />
+      <workItem from="1637232183404" duration="450000" />
+      <workItem from="1637233398975" duration="693000" />
+      <workItem from="1637234169967" duration="382000" />
+    </task>
+    <task id="LOCAL-00001" summary="加入了MyBatis对数据库的操作，通过控制器来完成对Data_Process对象的调用并将数据注入到数据库中">
+      <created>1636464918135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636464918135</updated>
+    </task>
+    <task id="LOCAL-00002" summary="加入了MyBatis对数据库的操作，通过控制器来完成对Data_Process对象的调用并将数据注入到数据库中">
+      <created>1636465819344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636465819344</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".">
+      <created>1637233615850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637233615850</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".">
+      <created>1637233637632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637233637632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="加入了MyBatis对数据库的操作，通过控制器来完成对Data_Process对象的调用并将数据注入到数据库中" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="map.get(&quot;location&quot;)" />
+        <watch expression=" map.get(&quot;Phone&quot;)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
