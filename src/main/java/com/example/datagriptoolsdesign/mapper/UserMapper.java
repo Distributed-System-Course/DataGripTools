@@ -16,6 +16,8 @@ public interface UserMapper {
     public List<TraceBean> Show_all();
     public List<TraceBean> QueryById(int id);
     public List<TraceBean> QueryByName(String Name);
+    public List<TraceBean> QueryByTime(String Starttime, String Endtime);
+    public List<TraceBean> QueryByLocation(String location);
     // 增加
     public void AddTrace(TraceBean trace);
 

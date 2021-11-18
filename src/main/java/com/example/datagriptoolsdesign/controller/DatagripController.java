@@ -39,6 +39,36 @@ public class DatagripController {
         });
         return trace_list.toString();
     }
+    @GetMapping("/QueryByTime")
+    public String QueryByTime(String Starttime, String Endtime){
+        ArrayList<String> trace_list = new ArrayList<>();
+        List<TraceBean> traceBeans = userMapper.QueryByTime(Starttime, Endtime);
+        traceBeans.forEach(traceBean -> {
+            trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
+             + traceBean.getId() + " " + traceBean.getPhone() + "\n");
+        });
+        return trace_list.toString();
+    }
+    @GetMapping("/QueryByName")
+    public String QueryByName(String Name){
+        ArrayList<String> trace_list = new ArrayList<>();
+        List<TraceBean> traceBeans = userMapper.QueryByName(Name);
+        traceBeans.forEach(traceBean -> {
+            trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
+             + traceBean.getId() + " " + traceBean.getPhone() + "\n");
+        });
+        return trace_list.toString();
+    }
+    @GetMapping("/QueryByLocation")
+    public String QueryByLocation(String location){
+        ArrayList<String> trace_list = new ArrayList<>();
+        List<TraceBean> traceBeans = userMapper.QueryByLocation(location);
+        traceBeans.forEach(traceBean -> {
+            trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
+             + traceBean.getId() + " " + traceBean.getPhone() + "\n");
+        });
+        return trace_list.toString();
+    }
     @GetMapping("/AddTrace")
     public String AddTrace(){
         ArrayList<TraceBean> traceBeans = new ArrayList<>();
