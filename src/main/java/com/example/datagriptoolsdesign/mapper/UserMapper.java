@@ -15,7 +15,7 @@ public interface UserMapper {
     // 查询
     public List<TraceBean> Show_all();
     public List<TraceBean> QueryById(int id);
-    public List<TraceBean> QueryByTime(String starttime, String endtime);
+    public List<TraceBean> QueryByName(String Name);
     // 增加
     public void AddTrace(TraceBean trace);
 
