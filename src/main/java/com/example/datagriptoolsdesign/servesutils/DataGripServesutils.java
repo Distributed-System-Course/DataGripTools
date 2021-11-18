@@ -27,7 +27,7 @@ public class DataGripServesutils implements DataGripServes {
             e.printStackTrace();
         }
     }
-    
+
     @Override
     public String showALLTrace() {
         ArrayList<String> trace_list = new ArrayList<>();
@@ -40,7 +40,7 @@ public class DataGripServesutils implements DataGripServes {
     }
 
     @Override
-    public String showTraceById(int id) {
+    public String showTraceById(String id) {
         ArrayList<String> trace_list = new ArrayList<>();
         List<TraceBean> traceBeans = userMapper.QueryById(id);
         traceBeans.forEach(traceBean -> {

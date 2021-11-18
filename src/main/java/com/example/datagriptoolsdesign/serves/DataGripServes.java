@@ -9,5 +9,5 @@ import java.util.ArrayList;
 public interface DataGripServes {
     public void addTrace(ArrayList<TraceBean> traceBeans);
     public String showALLTrace();
-    public String showTraceById(int id);
+    public String showTraceById(String id);
 }
