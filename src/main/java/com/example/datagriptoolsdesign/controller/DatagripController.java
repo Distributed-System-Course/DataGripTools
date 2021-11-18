@@ -4,12 +4,17 @@ import com.example.datagriptoolsdesign.bean.TraceBean;
 import com.example.datagriptoolsdesign.bean.UserBean;
 import com.example.datagriptoolsdesign.demo.Data_Processing;
 import com.example.datagriptoolsdesign.mapper.UserMapper;
+import com.example.datagriptoolsdesign.webapp.POJO.tableData;
+import com.example.datagriptoolsdesign.webapp.Result.queryReturn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+
 //控制器只是用来接收客户端的请求。
 @RestController
 public class DatagripController {
@@ -19,7 +24,6 @@ public class DatagripController {
 
     @GetMapping("/api/Show_all")
     public String Show_all(){
-
         ArrayList<String> trace_list = new ArrayList<>();
         List<TraceBean> traceBeans = userMapper.Show_all();
         traceBeans.forEach(traceBean -> {
@@ -67,7 +71,6 @@ public class DatagripController {
         }
         return "OK";
     }
-
 //@GetMapping("/Verify")
 //    public Boolean VerifyUser(String username, String password){
 //    UserBean userBean = userMapper.getUser(username, password);

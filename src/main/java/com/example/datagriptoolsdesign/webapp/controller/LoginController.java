@@ -11,10 +11,11 @@ import java.util.Objects;
 public class LoginController {
 
     @CrossOrigin
-    @PostMapping(value = "api/login")
+    @PostMapping(value = "api/login",produces = "application/json")
     @ResponseBody
     public Result login(@RequestBody User requestUser) {
         // 对 html 标签进行转义，防止 XSS 攻击
+        System.out.println(requestUser.toString());
         String username = requestUser.getUsername();
         username = HtmlUtils.htmlEscape(username);
 

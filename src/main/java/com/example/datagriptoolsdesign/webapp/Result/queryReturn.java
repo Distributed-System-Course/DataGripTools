@@ -11,7 +11,18 @@ public class queryReturn {
     public queryReturn(){
         this.status=200;
     }
-    public void addData(tableData add){
+    public void setData(tableData add){
         data.add(add);
+    }
+    //public void getdata(tableData add){}
+    public void setStatus(int status) { this.status = status; }
+    public int getStatus() { return status; }
+
+    @Override
+    public String toString() {
+        return "queryReturn{" +
+                "status=" + status +
+                ", data=" + data.toString() +
+                '}';
     }
 }

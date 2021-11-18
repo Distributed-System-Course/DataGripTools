@@ -9,7 +9,6 @@ public class tableData {
     String name;
     String address;
     int id;
-    Result r;
     public tableData(String inId, String inDate, String inName, String inAddress){
         this.id= valueOf(inId).intValue();
         this.date=inDate;
@@ -23,4 +22,20 @@ public class tableData {
     public void setDate(String inDate){this.date=inDate;}
     public void setName(String inName){this.name=inName;}
     public void setAddress(String inAddress){this.address=inAddress;}
+    public int getId() {
+        return this.id;
+    }
+    public String getDate(){return this.date;}
+    public String getName(){return this.name;}
+    public String getAddress(){return this.address;}
+
+    @Override
+    public String toString() {
+        return "tableData{" +
+                "date='" + date + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
