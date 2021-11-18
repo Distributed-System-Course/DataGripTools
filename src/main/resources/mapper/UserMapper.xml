@@ -12,6 +12,10 @@
         Select * from trace where id = #{id};
     </select>
 
+    <select id="QueryByTime" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace where enter_time  betwenen #{starttime} and #{endtime};
+    </select>
+
     <select id="getUser" resultType="com.example.datagriptoolsdesign.bean.UserBean">
         Select * from tools_user Where username = #{username} and password = #{password};
     </select>
