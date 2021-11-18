@@ -10,11 +10,12 @@ import java.io.*;
 //控制器只是用来接收客户端的请求。
 @Controller
 public class Reciever {
+
     @RequestMapping(value = "/up")
     public String homePage() {
         return "/up";
     }
-
+    @CrossOrigin
     @RequestMapping("/upload")
     @ResponseBody
     public Object handleFileUpload(@RequestParam("file") MultipartFile file) {
