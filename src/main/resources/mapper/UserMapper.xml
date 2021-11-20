@@ -31,4 +31,22 @@
     <insert id="AddTrace" parameterType="com.example.datagriptoolsdesign.bean.TraceBean">
         Insert into trace (location, enter_time, Name, phone, id)Value(#{location}, #{enter_time}, #{Name}, #{phone}, #{id});
     </insert>
+
+
+    <select id="QueryByYear" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year};
+    </select>
+
+    <select id="QueryByMonth" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and location = #{location};
+    </select>
+
+    <select id="QueryByDay" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and DAY(enter_time) = #{day} and location = #{location};
+    </select>
+
+    <select id="QueryByHour" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and DAY(enter_time) = #{day} and HOUR(enter_time)  = #{hour} and location = #{location};
+    </select>
+
 </mapper>
