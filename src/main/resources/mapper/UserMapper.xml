@@ -9,7 +9,25 @@
     </select>
 
     <select id="QueryById" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace where id = #{id};
+        Select * from trace where id = #{id} and location = #{location} and  enter_time between #{starttime} and #{endtime};
+    </select>
+
+    <select id="QueryByAll" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        select * from trace
+        <where>
+            <if test="id!=null">
+                and id = #{id}
+            </if>
+            <if test="location!=null">
+                and location = #{location}
+            </if>
+            <if test="Name!=null">
+                and Name = #{Name}
+            </if>
+            <if test="starttime!=null">
+                and  enter_time between #{starttime} and #{endtime}
+            </if>
+        </where>
     </select>
 
     <select id="QueryByName" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
@@ -17,7 +35,7 @@
     </select>
 
     <select id="QueryByTime" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace where enter_time  betwenen #{starttime} and #{endtime};
+        Select * from trace where enter_time between #{starttime} and #{endtime} and location = #{location};
     </select>
 
     <select id="QueryByLocation" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
@@ -38,15 +56,15 @@
     </select>
 
     <select id="QueryByMonth" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and location = #{location};
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and location = #{location};
     </select>
 
     <select id="QueryByDay" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and DAY(enter_time) = #{day} and location = #{location};
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and DAY(enter_time) = #{Day} and location = #{location};
     </select>
 
     <select id="QueryByHour" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{month} and DAY(enter_time) = #{day} and HOUR(enter_time)  = #{hour} and location = #{location};
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and DAY(enter_time) = #{Day} and HOUR(enter_time)  = #{Hour} and location = #{location};
     </select>
 
 </mapper>

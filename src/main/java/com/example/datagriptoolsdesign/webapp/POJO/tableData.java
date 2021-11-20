@@ -8,21 +8,21 @@ public class tableData {
     String date;
     String name;
     String address;
-    int id;
+    String id;
     public tableData(String inId, String inDate, String inName, String inAddress){
-        this.id= valueOf(inId).intValue();
+        this.id= inId;
         this.date=inDate;
         this.name=inName;
         this.address=inAddress;
 
     }
     public void setId(String inId) {
-        this.id= valueOf(inId).intValue();
+        this.id= inId;
     }
     public void setDate(String inDate){this.date=inDate;}
     public void setName(String inName){this.name=inName;}
     public void setAddress(String inAddress){this.address=inAddress;}
-    public int getId() {
+    public String getId() {
         return this.id;
     }
     public String getDate(){return this.date;}

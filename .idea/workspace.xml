@@ -4,140 +4,134 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b99ddb-a850-40fb-ae12-7d3f91815af9" name="Default Changelist" comment="homepage and data transfer">
-      <change afterPath="$PROJECT_DIR$/DataGripToolsDesign" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/common/NavMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/Appindex.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/Pie.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/Query.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/ShowPlace.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/SideMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/components/home/Tutorial.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datagrip/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="dc2e6b29-9b65-42a6-ac30-338f88b11d44" name="Changes" comment="删除了前端代码，提交了能登陆的代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/Pie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/queryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/tableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/Result/queryReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/LineYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/queryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/CreateExcelData.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/Create_Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/Create_Excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/Time.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/get id.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/get id.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/get_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/get_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/id and phone.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/id and phone.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/name.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/name.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/name.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/进入登记.xls" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/进入登记.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateExcelData/进入登记.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CreateExcelData/进入登记.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/POJO/queryForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/POJO/queryForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/POJO/tableData.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/POJO/tableData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/Result/queryReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/Result/queryReturn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/controller/queryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/example/datagriptoolsdesign/webapp/controller/queryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/DataGripToolsDesignApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/bean/TraceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/bean/UserBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/DataGripToolsDesignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/DataGripToolsDesignApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller/DatagripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller/DatagripController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller/HomeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller/Reciever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/demo/Data_Processing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/demo/Data_Processing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/demo/Data_Processing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/serves/DataGripServes.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/servesutils/DataGripServesutils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/POJO/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/Result/Result.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/queryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/controller/queryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/css/app.ce5ac506913be71cbe0a4d27e3f5cb0a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/css/app.ce5ac506913be71cbe0a4d27e3f5cb0a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/fonts/element-icons.535877f.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/fonts/element-icons.732389d.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/img/login.7414f08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/datagrip/src/assets/login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/app.28e607d983fbf9ebfd59.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/app.28e607d983fbf9ebfd59.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/manifest.3ad1d5771e9b13dbdad2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/vendor.37b31ef2b848d170fc98.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/webapp/static/js/vendor.37b31ef2b848d170fc98.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Static/JS/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/.postcssrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/config/test.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/common/NavMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/common/NavMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/home/Appindex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/components/home/Appindex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/custom-assertions/elementCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/specs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/e2e/specs/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/jest.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/jest.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datagrip/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/AddTrace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/AddTrace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/QueryById.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/QueryById.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Show_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Show_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/进入登记.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/datagriptoolsdesign/DataGripToolsDesignApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/datagriptoolsdesign/DataGripToolsDesignApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Static/JS/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/DataGripToolsDesignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/DataGripToolsDesignApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/bean/TraceBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/bean/UserBean.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/DatagripController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/DatagripController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/Reciever.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/Reciever.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/demo/Data_Processing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/controller/Reciever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/demo/Data_Processing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/demo/Data_Processing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/serves/DataGripServes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/servesutils/DataGripServesutils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/POJO/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/POJO/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/POJO/queryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/POJO/tableData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/Result/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/Result/queryReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/Result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/Result/Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/datagriptoolsdesign/webapp/controller/queryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/datagrip/build/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/datagrip/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/AddTrace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/QueryById.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Show_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/datagrip/static/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/进入登记.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/.postcssrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/config/test.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/components/common/NavMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/components/common/NavMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/components/home/Appindex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/components/home/Appindex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/custom-assertions/elementCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/specs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/e2e/specs/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/unit/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/unit/jest.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/unit/jest.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/unit/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/unit/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datagrip/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datagrip/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/AddTrace.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/AddTrace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/QueryById.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/QueryById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Show_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Show_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/up.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/datagriptoolsdesign/DataGripToolsDesignApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/开发文档/UseCase.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/开发文档/UseCase.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据抽取工具.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/数据抽取工具.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据抽取工具设计.png" beforeDir="false" afterPath="$PROJECT_DIR$/数据抽取工具设计.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,55 +141,70 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="20wDyRht2jy29TuWqvn2127XSsy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
+  <component name="ProjectId" id="20wCR3C9PuK8CzrRSMpzkox0Bw4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/datagriptoolsdesign/controller" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MSI-Job\Documents\GitHub\DataGripTools\src\main\java\com\example\datagriptoolsdesign" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\java\com\example\datagriptoolsdesign\controller" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\resources\mapper" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\java\com\example\datagriptoolsdesign\mapper" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\java\com\example\datagriptoolsdesign\webapp\Result" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\java\com\example\datagriptoolsdesign\webapp\POJO" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MSI-Job\Documents\GitHub\DataGripTools\src\main\java\com\example\datagriptoolsdesign" />
-      <recent name="C:\Users\MSI-Job\Documents\GitHub\DataGripTools\src\main\java\com\example\datagriptoolsdesign\webapp\Result" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.datagriptoolsdesign.webapp.Result" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\resources" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src\main\resources\templates" />
+      <recent name="C:\Users\MSI-Job\Desktop\DataGripTools\src" />
+      <recent name="C:\Users\Edward\importance\junior1\new\DataGripTools\src\main\java\com\example\datagriptoolsdesign\controller" />
+      <recent name="C:\Users\Edward\importance\junior1\new\DataGripTools\src\main\java\com\example\datagriptoolsdesign" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataGripToolsDesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DataGripTools" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.datagriptoolsdesign.DataGripToolsDesignApplication" />
@@ -207,34 +216,84 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08b99ddb-a850-40fb-ae12-7d3f91815af9" name="Default Changelist" comment="" />
-      <created>1636947011899</created>
+      <changelist id="dc2e6b29-9b65-42a6-ac30-338f88b11d44" name="Changes" comment="" />
+      <created>1636946251588</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636947011899</updated>
-      <workItem from="1636947014122" duration="762000" />
-      <workItem from="1636949147165" duration="116000" />
-      <workItem from="1637062614967" duration="2231000" />
-      <workItem from="1637064970514" duration="2515000" />
-      <workItem from="1637071187561" duration="5242000" />
-      <workItem from="1637076695982" duration="46000" />
-      <workItem from="1637150123145" duration="5090000" />
-      <workItem from="1637222891831" duration="22292000" />
-      <workItem from="1637246674145" duration="101000" />
-      <workItem from="1637246785037" duration="2000" />
+      <updated>1636946251588</updated>
+      <workItem from="1636946253053" duration="213000" />
+      <workItem from="1636946526487" duration="3168000" />
+      <workItem from="1636958901801" duration="2097000" />
+      <workItem from="1637064191411" duration="8721000" />
+      <workItem from="1637121336413" duration="4142000" />
+      <workItem from="1637150891683" duration="6000000" />
+      <workItem from="1637159309887" duration="4833000" />
+      <workItem from="1637201503176" duration="927000" />
+      <workItem from="1637247011376" duration="2210000" />
+      <workItem from="1637249408630" duration="5545000" />
+      <workItem from="1637255014496" duration="161000" />
+      <workItem from="1637255186319" duration="10071000" />
+      <workItem from="1637265369398" duration="375000" />
+      <workItem from="1637286323567" duration="3501000" />
     </task>
-    <task id="LOCAL-00001" summary="homepage and data transfer">
-      <created>1637064878588</created>
+    <task id="LOCAL-00001" summary="实现了登录功能（没有连接数据库）">
+      <created>1636946831698</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1637064878588</updated>
+      <updated>1636946831698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现了登录功能（没有连接数据库）">
+      <created>1636947213900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636947213900</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现了登录功能（没有连接数据库）">
+      <created>1636947327272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636947327272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vue前端代码">
+      <created>1636948851004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636948851004</updated>
+    </task>
+    <task id="LOCAL-00005" summary="vue前端代码">
+      <created>1637153960612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637153960612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除了前端代码，提交了能登陆的代码">
+      <created>1637157597702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637157597702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -249,8 +308,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homepage and data transfer" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage and data transfer" />
+    <MESSAGE value="实现了登录功能（没有连接数据库）" />
+    <MESSAGE value="vue前端代码" />
+    <MESSAGE value="删除了前端代码，提交了能登陆的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除了前端代码，提交了能登陆的代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.Exception" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

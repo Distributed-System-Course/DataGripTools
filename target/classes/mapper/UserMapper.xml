@@ -9,7 +9,37 @@
     </select>
 
     <select id="QueryById" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
-        Select * from trace where id = #{id};
+        Select * from trace where id = #{id} and location = #{location} and  enter_time between #{starttime} and #{endtime};
+    </select>
+
+    <select id="QueryByAll" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        select * from trace
+        <where>
+            <if test="id!=null">
+                and id = #{id}
+            </if>
+            <if test="location!=null">
+                and location = #{location}
+            </if>
+            <if test="Name!=null">
+                and Name = #{Name}
+            </if>
+            <if test="starttime!=null">
+                and  enter_time between #{starttime} and #{endtime}
+            </if>
+        </where>
+    </select>
+
+    <select id="QueryByName" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace where Name = #{Name};
+    </select>
+
+    <select id="QueryByTime" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace where enter_time between #{starttime} and #{endtime} and location = #{location};
+    </select>
+
+    <select id="QueryByLocation" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace where location = #{location};
     </select>
 
     <select id="getUser" resultType="com.example.datagriptoolsdesign.bean.UserBean">
@@ -19,4 +49,22 @@
     <insert id="AddTrace" parameterType="com.example.datagriptoolsdesign.bean.TraceBean">
         Insert into trace (location, enter_time, Name, phone, id)Value(#{location}, #{enter_time}, #{Name}, #{phone}, #{id});
     </insert>
+
+
+    <select id="QueryByYear" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year};
+    </select>
+
+    <select id="QueryByMonth" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and location = #{location};
+    </select>
+
+    <select id="QueryByDay" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and DAY(enter_time) = #{Day} and location = #{location};
+    </select>
+
+    <select id="QueryByHour" resultType="com.example.datagriptoolsdesign.bean.TraceBean">
+        Select * from trace Where YEAR(enter_time) = #{year} and MONTH(enter_time) = #{Month} and DAY(enter_time) = #{Day} and HOUR(enter_time)  = #{Hour} and location = #{location};
+    </select>
+
 </mapper>

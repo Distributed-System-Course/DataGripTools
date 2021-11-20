@@ -2,7 +2,6 @@ package com.example.datagriptoolsdesign.demo;
 
 
 import com.example.datagriptoolsdesign.bean.TraceBean;
-import com.example.datagriptoolsdesign.servesutils.DataGripServesutils;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -152,7 +151,7 @@ public class Data_Processing{
         Data_Processing data_processing = new Data_Processing();
         try {
 
-            data_processing.init("D:\\Study\\Study in MUC\\DataGripToolsDesign\\src\\main\\resources\\进入登记.xlsx");
+            data_processing.init("src/main/resources/进入登记.xlsx");
             data_processing.processing();
 //            data_processing.logs.forEach(System.out::println);
 
