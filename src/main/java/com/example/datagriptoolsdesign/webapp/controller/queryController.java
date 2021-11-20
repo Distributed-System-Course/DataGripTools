@@ -36,17 +36,13 @@ public class queryController {
         traceBeans.forEach(traceBean -> {
                     id_trace_list.add(new tableData(traceBean.getId(), traceBean.getEnter_time(), traceBean.getName(), traceBean.getLocation()));
                 });
-        ArrayList<tableData> id_trace_list = new ArrayList<>();
-        List<TraceBean> traceBeans = userMapper.QueryByName(id);
-        traceBeans.forEach(traceBean -> {
-            id_trace_list.add(new tableData(traceBean.getId(), traceBean.getEnter_time(), traceBean.getName(), traceBean.getLocation()));
+        ArrayList<tableData> name_trace_list = new ArrayList<>();
+        List<TraceBean> n_traceBeans = userMapper.QueryByName(name);
+        n_traceBeans.forEach(n_traceBean -> {
+            name_trace_list.add(new tableData(n_traceBean.getId(), n_traceBean.getEnter_time(), n_traceBean.getName(), n_traceBean.getLocation()));
         });
-        ArrayList<tableData> id_trace_list = new ArrayList<>();
-        List<TraceBean> traceBeans = userMapper.QueryById(id);
-        traceBeans.forEach(traceBean -> {
-            id_trace_list.add(new tableData(traceBean.getId(), traceBean.getEnter_time(), traceBean.getName(), traceBean.getLocation()));
-        });
-
+        id_trace_list.retainAll(name_trace_list);
+        System.out.println(id_trace_list);
         tableData test=new tableData("01110","2016-05-02","张三","中关村");
         queryReturn result=new queryReturn();
         result.setData(test);

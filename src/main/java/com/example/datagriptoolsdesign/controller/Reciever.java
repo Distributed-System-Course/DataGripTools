@@ -7,22 +7,22 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 
+//控制器只是用来接收客户端的请求。
 @Controller
 public class Reciever {
-
     @RequestMapping(value = "/up")
     public String homePage() {
         return "/up";
     }
+
     @CrossOrigin
-    @RequestMapping("/upload")
+    @RequestMapping("api/upload")
     @ResponseBody
-    public Result handleFileUpload(@RequestParam("file") MultipartFile file) {
+    public Object handleFileUpload(@RequestParam("file") MultipartFile file) {
         if (!file.isEmpty()) {
             try {
                 BufferedOutputStream out = new BufferedOutputStream(
-                        new FileOutputStream(new File(
-                                "src/main/resources/test.xlsx")));
+                        new FileOutputStream(new File("src/main/resources/test.xlsx")));
                 System.out.println(file.getName());
                 out.write(file.getBytes());
                 out.flush();
@@ -34,10 +34,10 @@ public class Reciever {
                 e.printStackTrace();
                 System.out.println( "上传失败," + e.getMessage());
             }
-
             return new Result(200);
 
         } else {
+            System.out.println("test");
             return new Result(400);
         }
     }

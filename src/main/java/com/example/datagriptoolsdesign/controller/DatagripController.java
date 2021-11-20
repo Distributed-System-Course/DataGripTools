@@ -22,7 +22,7 @@ public class DatagripController {
     @Autowired
     private UserMapper userMapper;
 
-    @GetMapping("/api/Show_all")
+    @GetMapping("/Show_all")
     public String Show_all(){
         ArrayList<String> trace_list = new ArrayList<>();
         List<TraceBean> traceBeans = userMapper.Show_all();
@@ -33,7 +33,7 @@ public class DatagripController {
         return trace_list.toString();
     }
 
-    @GetMapping("/api/QueryById")
+    @GetMapping("/QueryById")
     public String QueryById(int id){
         ArrayList<String> trace_list = new ArrayList<>();
         List<TraceBean> traceBeans = userMapper.QueryById(id);
@@ -43,17 +43,37 @@ public class DatagripController {
         });
         return trace_list.toString();
     }
-    @GetMapping("/api/QueryByTime")
-    public String QueryByTime(String starttime, String endtime){
+    @GetMapping("/QueryByTime")
+    public String QueryByTime(String Starttime, String Endtime){
         ArrayList<String> trace_list = new ArrayList<>();
-        List<TraceBean> traceBeans = userMapper.QueryByTime(starttime, endtime);
+        List<TraceBean> traceBeans = userMapper.QueryByTime(Starttime, Endtime);
         traceBeans.forEach(traceBean -> {
             trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
              + traceBean.getId() + " " + traceBean.getPhone() + "\n");
         });
         return trace_list.toString();
     }
-    @GetMapping("/api/AddTrace")
+    @GetMapping("/QueryByName")
+    public String QueryByName(String Name){
+        ArrayList<String> trace_list = new ArrayList<>();
+        List<TraceBean> traceBeans = userMapper.QueryByName(Name);
+        traceBeans.forEach(traceBean -> {
+            trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
+             + traceBean.getId() + " " + traceBean.getPhone() + "\n");
+        });
+        return trace_list.toString();
+    }
+    @GetMapping("/QueryByLocation")
+    public String QueryByLocation(String location){
+        ArrayList<String> trace_list = new ArrayList<>();
+        List<TraceBean> traceBeans = userMapper.QueryByLocation(location);
+        traceBeans.forEach(traceBean -> {
+            trace_list.add(traceBean.getLocation() + " " + traceBean.getEnter_time() + " " + traceBean.getName() + " "
+             + traceBean.getId() + " " + traceBean.getPhone() + "\n");
+        });
+        return trace_list.toString();
+    }
+    @GetMapping("/AddTrace")
     public String AddTrace(){
         ArrayList<TraceBean> traceBeans = new ArrayList<>();
         Data_Processing data_processing = new Data_Processing();
